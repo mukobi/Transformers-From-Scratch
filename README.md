@@ -1,4 +1,4 @@
-# MLAB Transformers From Scratch
+# Transformers From Scratch
 
 A documented and unit-tested repo to help you learn how to build transformer neural network models from scratch.
 
@@ -10,8 +10,7 @@ A documented and unit-tested repo to help you learn how to build transformer neu
 
 ### What is this?
 
-- It seems useful to gain a deeper understanding of transformers by building some key models "from scratch" in a library like PyTorch, especially if you want to do AI safety research on them.
-- Redwood Research runs a [Machine Learning for Alignment Bootcamp (MLAB)](https://www.alignmentforum.org/posts/3ouxBRRzjxarTukMW/apply-to-the-second-iteration-of-the-ml-for-alignment) in which one week consists of building BERT and GPT-2 from scratch, fine tuning them, and exploring some interpretability and training techniques.
+- It seems useful to gain a deeper understanding of transformers by building some key models "from scratch" in a library like PyTorch, especially if you want to do AI research on them.
 - This repository takes the code from [the original MLAB repository](https://github.com/redwoodresearch/mlab) and cleans it up to make it easier for others to do this independently. The key differences between this repo and the original repo are:
 	- Removed almost all the content besides the days about building BERT and GPT-2.
 	- Created a starter [student](./mlab_tfs/bert/bert_student.py) file that has all the class and function stubs for the parts you'd need to build a transformer but without the implementation.
